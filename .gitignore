@@ -1,0 +1,47 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go build / coverage
+/bin/
+/dist/
+/build/
+*.cover
+*.coverprofile
+coverage.out
+coverage.html
+profile.cov
+
+# Dependency / module cache (local)
+vendor/
+
+# IDE / editor / local agent skills
+.idea/
+.vscode/
+.cursor/
+.agents/
+skills-lock.json
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Debug / temp
+debug
+*.log
+tmp/
+temp/
